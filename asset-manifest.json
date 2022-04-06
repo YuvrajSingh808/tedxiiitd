@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/tedxiiitd/static/css/main.a6253a89.css",
+    "main.js": "/tedxiiitd/static/js/main.94190382.js",
+    "static/media/x.png": "/tedxiiitd/static/media/x.9b490c2448463fc34d39.png",
+    "static/media/anna.png": "/tedxiiitd/static/media/anna.650ec0cb960aa070d019.png",
+    "static/media/bhagyashree.png": "/tedxiiitd/static/media/bhagyashree.6c859cd7f64f732ade9e.png",
+    "static/media/anshul.png": "/tedxiiitd/static/media/anshul.dd2d9f26f91b60a6bcc5.png",
+    "static/media/shabnam.png": "/tedxiiitd/static/media/shabnam.507cc5df79b09bac8a46.png",
+    "static/media/papacj.png": "/tedxiiitd/static/media/papacj.a346bf1cb459eeabad0b.png",
+    "static/media/arko.png": "/tedxiiitd/static/media/arko.1cf3eec6bbc055845849.png",
+    "static/media/instagram.svg": "/tedxiiitd/static/media/instagram.c94e5f67e3bb841f985e34855f55fa1d.svg",
+    "static/media/youTube.svg": "/tedxiiitd/static/media/youTube.d30debfd0dec4acdab94b088eb0e01b4.svg",
+    "static/media/scroll.svg": "/tedxiiitd/static/media/scroll.a46ec6d59df9c12f88b8791168d72b91.svg",
+    "index.html": "/tedxiiitd/index.html",
+    "static/media/graphic3.svg": "/tedxiiitd/static/media/graphic3.dcb01bc558d8d48a2370c364000dec21.svg",
+    "static/media/facebook.svg": "/tedxiiitd/static/media/facebook.71960400dfb969e384752cad88cb7b93.svg",
+    "static/media/graphic1.svg": "/tedxiiitd/static/media/graphic1.92048dec41657888c04abcbe7f3ccff3.svg",
+    "static/media/graphic4.svg": "/tedxiiitd/static/media/graphic4.44b237e6fc15a592993a851fdb15c741.svg",
+    "static/media/graphic2.svg": "/tedxiiitd/static/media/graphic2.7a26e4cba12d1a544d0f55627e2b2a46.svg",
+    "static/media/tempImage.svg": "/tedxiiitd/static/media/tempImage.a4cec4b645546faa45adae2914da313c.svg",
+    "main.a6253a89.css.map": "/tedxiiitd/static/css/main.a6253a89.css.map",
+    "main.94190382.js.map": "/tedxiiitd/static/js/main.94190382.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6253a89.css",
+    "static/js/main.94190382.js"
+  ]
+}
