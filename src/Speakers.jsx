@@ -61,36 +61,36 @@ export default function Speakers(props) {
             img: null
         }
     ];
-    var counter = 0;
-    console.log(speakers);
+    // var counter = 0;
+    // console.log(speakers);
     return (
         <div className="w-4/5 mt-60 mx-auto" id='speakers'>
             {/* graphic3 image */}
             <img src={graphic3} alt="graphic3" className='w-1/2 -mt-64 ml-4 absolute z-0' />
             <div className="mb-16 z-10 relative">
-                <span className="font-quattrocento font-bold text-customWhite text-4xl">Our</span>
+                <span className="font-quattrocento font-bold text-customWhite sm:text-4xl text-2xl">Our</span>
                 <div className="bg-backgroundBlack z-10">
-                    <p className="font-quattrocento text-tedRed text-8xl">Speakers</p>
+                    <p className="font-quattrocento text-tedRed sm:text-8xl text-4xl">Speakers</p>
                 </div>
             </div>
             
-                <div className="flex justify-between space-x-16 my-20">
+                <div className="flex flex-col sm:flex-row justify-between sm:space-x-16 my-20">
                     <SpeakerTile name={speakers[0].name} img={speakers[0].img} description={speakers[0].description} />
                     <SpeakerTile name={speakers[1].name} img={speakers[1].img} description={speakers[1].description} />
                 </div>
-                <div className="pl-20 flex justify-between space-x-16 my-20">
+                <div className="sm:pl-20 flex-col sm:flex-row flex justify-between sm:space-x-16 my-20">
                     <SpeakerTile name={speakers[2].name} img={speakers[2].img} description={speakers[2].description} />
                     <SpeakerTile name={speakers[3].name} img={speakers[3].img} description={speakers[3].description} />
                 </div>
-                <div className="flex justify-between space-x-16 my-20">
+                <div className="flex flex-col sm:flex-row justify-between sm:space-x-16 my-20">
                     <SpeakerTile name={speakers[4].name} img={speakers[4].img} description={speakers[4].description} />
                     <SpeakerTile name={speakers[5].name} img={speakers[5].img} description={speakers[5].description} />
                 </div>
-                <div className="pl-20 flex justify-between space-x-16 my-20">
+                <div className="sm:pl-20 flex-col sm:flex-row flex justify-between sm:space-x-16 my-20">
                     <SpeakerTile name={speakers[6].name} img={speakers[6].img} description={speakers[6].description} />
                     <SpeakerTile name={speakers[7].name} img={speakers[7].img} description={speakers[7].description} />
                 </div>
-                <div className="flex justify-between space-x-16 my-20">
+                <div className="flex flex-col sm:flex-row justify-between sm:space-x-16 my-20">
                     <SpeakerTile name={speakers[8].name} img={speakers[8].img} description={speakers[8].description} />
                     <SpeakerTile name={speakers[9].name} img={speakers[9].img} description={speakers[9].description} />
                 </div>

@@ -8,8 +8,8 @@ export function Details() {
             <span className="mt-80 text-tedRed mx-auto text-5xl font-montserrat font-semibold uppercase" id='details'>
                 Found Missing
             </span>
-            <div className="flex my-10 w-4/5 text-customWhite space-x-8">
-                <div className="w-1/3 font-quattrocento text-5xl">
+            <div className="flex my-10 flex-col sm:flex-row w-4/5 text-customWhite space-x-8">
+                <div className="sm:w-1/3 font-quattrocento text-5xl">
                     <span>When</span>
                     {/* graphic1 */}
                     <div className="w-full flex justify-center">
@@ -23,13 +23,13 @@ export function Details() {
                         <p className='uppercase text-customWhite font-lato'>April</p>
                     </div>
                 </div>
-                <div className="w-1/3">
+                <div className="sm:w-1/3">
                     <div className="h-16"></div>
                     <div className="text-center font-montserrat">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio sagittis est sit lectus sagittis. At suspendisse neque, sed eu amet nulla. Amet, pharetra faucibus adipiscing sed. Ac et dui eget enim, velit fringilla. Scelerisque ullamcorper cursus amet ullamcorper quam. Id amet, nec massa tortor in ut. Tortor duis lectus massa gravida fringilla mattis quam proin enim. Tellus congue in fringilla donec sagittis, amet auctor quis. Ac viverra non, bibendum augue quis adipiscing. Suscipit facilisis arcu integer etiam volutpat tincidunt quam. Dis pretium non amet in ornare diam arcu, massa. Bibendum tellus morbi et nam. Purus, scelerisque morbi mauris volutpat elit nec dignissim.
                     </div>
                 </div>
-                <div className="w-1/3 font-quattrocento text-5xl">
+                <div className="sm:w-1/3 font-quattrocento text-5xl sm:mt-0 mt-12">
                     <span>Where</span>
                     {/* graphic1 */}
                     <div className="w-full flex justify-center my-6">
@@ -37,6 +37,9 @@ export function Details() {
                     </div>
                     <div className="w-full flex justify-end">
                         <span className='stroke-text-tedRed font-lato text-6xl'>IIIT Delhi</span>
+                    </div>
+                    <div className="font-lato text-sm text-right">
+                    Okhla Industrial Estate, Phase III,<br /> near Govind Puri Metro Station<br/> New Delhi, Delhi 110020
                     </div>
                 </div>
             </div>
